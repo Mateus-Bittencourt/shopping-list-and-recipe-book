@@ -1,5 +1,6 @@
 import { CommonModule } from "@angular/common";
 import { NgModule } from "@angular/core";
+
 import { AlertComponent } from "./alert/alert.component";
 import { DropdownDirective } from "./dropdown.directive";
 import { LoadingSpinnerComponent } from "./loading-spinner/loading-spinner.component";
@@ -24,6 +25,7 @@ import { PLaceholderDirective } from "./placeholder/placeholder.directive";
   ],
   entryComponents: [
     AlertComponent
-  ]
+  ],
+
 })
 export class SharedModule {}
